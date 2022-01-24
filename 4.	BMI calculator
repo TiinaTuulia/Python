@@ -1,0 +1,17 @@
+>>> import random
+>>> import sys
+>>> import os
+
+>>> name = "Hilkka"
+>>> height = 1.6
+>>> weight= 60
+
+>>> bmi = weight / (height+height)
+
+>>> if bmi < 25:
+...   print (name)
+...   print ("is not overweight")
+
+... else:
+...   print (name)
+...   print ("is overweight")
